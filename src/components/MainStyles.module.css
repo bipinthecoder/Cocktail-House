@@ -1,0 +1,99 @@
+.quickSand{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.center{
+    text-align: center;
+    /* color: #3b5998; */
+    color: black;
+    align-content: center;
+}
+.flexRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.bImage{
+    background-image: linear-gradient(180deg,rgba(41,43,44,0.91) 0%,rgba(41,43,44,0.99) 100%),url(https://149347875.v2.pressablecdn.com/wp-content/uploads/2019/06/449406_Website-Images-Bartender-vs-Enthusiast-A-1_061719.jpg) !important;
+}
+
+.searchDiv{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 50px;
+    height: 30vh;
+    box-shadow: 0px 10px 50px #555;
+    /* background-color: #e1cbb1 !important; */
+    /* background-color: black !important; */
+    background-color: #258ea6;
+}
+
+.formDiv{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 60px;
+    border-radius: 10%;
+    box-shadow: 0px 10px 50px #555;
+    background-color: #ffffff;
+}
+.adobe{
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.resultsDiv{
+    /* background-color: #258ea6; */
+    background-color: white;
+   
+    /* background-color: ; */
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding:60px;
+    /* border-radius: 50px; */
+    /* height: 30vh; */
+    height: auto;
+    box-shadow: 0px 10px 50px #555;
+}
+
+.cardTitle{
+    font-family: 'Roboto Condensed', sans-serif;
+    color:brown;
+}
+
+.cardType{
+    font-family: 'Scope One', serif;
+}
+
+.quote{
+    font-family: 'Dancing Script', cursive;
+    font-size: x-large;
+}
+.shadow{
+    box-shadow: 0px 10px 50px #555;
+}
+
+.footerHead{
+    font-family: 'Anton', sans-serif;
+}
+
+.imgAnime{
+    animation: shake 2.0s;
+    animation-iteration-count: infinite; 
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
