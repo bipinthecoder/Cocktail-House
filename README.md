@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## Screenshots
+<p align = "center">
+  <img src = "cocktail-project.png" height="700px">
+</p>
+
 ## Available Scripts
 
 In the project directory, you can run:
